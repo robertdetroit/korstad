@@ -3857,6 +3857,25 @@ input, select, textarea {
             animation: fadein 2s;
 }
 
+.korstadian > h1 {
+    padding: 1.5%;
+    text-align: center;
+}
+
+.korstadiananalysis > h2 {
+    font-size: 175%;
+    text-align: center;
+}
+
+.korstadiananalysis > p {
+    line-height: 2.00;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#gobackbuttonkorstad {
+    text-align: center;
+}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -3895,3 +3914,4 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
+
